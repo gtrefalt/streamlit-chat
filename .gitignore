@@ -1,0 +1,4 @@
+__pycache__/*
+data/*
+auth_config.yaml
+create_password*

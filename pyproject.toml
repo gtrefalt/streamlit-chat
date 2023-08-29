@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "streamlit-chat"
+version = "0.1.0"
+description = "Streamlit Chat powered by OpenAI GPT API"
+authors = ["Gregor Trefalt <gregor.trefalt@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "streamlit_chat"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.26.0"
+openai = "^0.27.9"
+streamlit-authenticator = "^0.2.2"
+pyyaml = "^6.0.1"
+tiktoken = "^0.4.0"
+python-ulid = "^1.1.0"
+loguru = "^0.7.0"
+sqlmodel = "^0.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

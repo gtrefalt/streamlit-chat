@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    John:
+      email: john.smith@chadbot.chat
+      name: John Smith
+      password: $2b$12$Lci2MWZ1TuLQlqL8CkrQzusjBm0lyH3p/t6N49oIAiXUW8iSMaR1O # To be replaced with hashed password
+    Chad:
+      email: chad.bot@chadbot.chat
+      name: Chad Bot
+      password: $2b$12$SXybw4lNqCmtleHSDY9gn.BegfirDIHvD8qPbxBgn0HoMHi1nTHgq # To be replaced with hashed password
+cookie:
+  expiry_days: 300
+  key: rWX3cqaSr7hqRehyKyWJVPkLJomayHu2n3mrF7FzcoMTrvwtwp # Must be string
+  name: stauth_stchat

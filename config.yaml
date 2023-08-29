@@ -1,0 +1,14 @@
+authentication:
+  authentication_on: False
+  authentication_config: auth_config.yaml
+database:
+  database_file: data/conversations.db
+models:
+  gpt-3.5-turbo-0613:
+    price:
+      input: 0.0015
+      output: 0.002
+  gpt-3.5-turbo-16k-0613:
+    price:
+      input: 0.003
+      output: 0.004
