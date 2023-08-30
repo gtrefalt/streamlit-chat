@@ -1,9 +1,26 @@
 # Streamlit Chat 🤖
 
 Streamlit chat is a chat-gpt powered chat bot build with streamlit.
+With history 📚 and cost estimation for every conversation 💰!
 
 It runs with you personal `OPENAI_API_KEY`, which has to be stored in
 `$OPENAI_API_KEY` environmental variable.
+
+## Installation and Running
+You can install dependencies with poetry.
+
+```bash
+poetry shell # to create virtual environment
+poetry install # install all dependencies
+streamlit run app.py # run app
+```
+
+Navigate to http://localhost:8501/ to open the app.
+
+![Screen cast](images/streamlit-chat.gif)
+
+
+## Further Settings
 
 You can adjust the config in the `config.yaml` file. Where you can:
 - turn on authentication module
@@ -27,6 +44,7 @@ hashed_passwords = stauth.Hasher(list_of_passwords).generate()
 print(hashed_passwords)
 ```
 
+
 Have fun!
 
 ## TODOs
@@ -35,7 +53,6 @@ Have fun!
 - [x] login
     - https://github.com/mkhorasani/Streamlit-Authenticator 
     - https://github.com/bleumink/streamlit-keycloak
-- [x] set up and nginx server
 - [x] add the cost estimates
 - [ ] add system message input
 - [ ] add detalied settings modal to do more settings than in the sidebar
