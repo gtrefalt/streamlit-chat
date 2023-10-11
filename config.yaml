@@ -12,3 +12,7 @@ models:
     price:
       input: 0.003
       output: 0.004
+  gpt-4-0314:
+    price:
+      input: 0.03
+      output: 0.06
